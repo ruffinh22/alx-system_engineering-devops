@@ -1,52 +1,52 @@
-# Full Stack Trivia API Backend
+## 0x00. Shell, basics Day 1 at Holberton school
 
-## Getting Started
+[0-current_working_directory](./0-current_working_directory) - Write a script that prints the absolute path name of the current working directory.
 
-### Installing Dependencies
-python 3.9.7
-astroid==2.2.5
-Click==7.0
-ecdsa==0.13.2
-Flask==1.0.2
-future==0.17.1
-isort==4.3.18
-itsdangerous==1.1.0
-Jinja2==2.10.1
-lazy-object-proxy==1.4.0
-MarkupSafe==1.1.1
-mccabe==0.6.1
-pycryptodome==3.3.1
-pylint==2.3.1
-python-jose-cryptodome==1.3.2
-six==1.12.0
-typed-ast==1.4.2
-Werkzeug==0.15.6
-wrapt==1.11.1
-Flask-Cors==3.0.8
+[1-listit](./1-listit) - Display the contents list of your current directory.
 
-#### Python 3.9 (conda3)
+[2-bring_me_home](./2-bring_me_home) - Write a script that changes the working directory to the user’s home directory.
+You are not allowed to use any shell variables
 
-Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
+[3-listfiles](./3-listfiles) - Display current directory contents in a long format
 
-#### Virtual Enviornment
+[4-listmorefiles](./4-listmorefiles) - Display current directory contents, including hidden files (starting with .). Use the long format.
 
-We recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organaized. Instructions for setting up a virual enviornment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+[5-listfilesdigitonly](./5-listfilesdigitonly) - Display current directory contents.
+Long format
+with user and group IDs displayed numerically
+And hidden files (starting with .)
 
-#### PIP Dependencies
+[6-firstdirectory](./6-firstdirectory) - Create a script that creates a directory named holberton in the /tmp/ directory.
 
-Once you have your virtual environment setup and running, install dependencies by naviging to the `/backend` directory and running:
+[7-movethatfile](./7-movethatfile) - Move the file betty from /tmp/ to /tmp/holberton.
 
-```bash
-pip install -r requirements.txt
-```
+[8-firstdelete](./8-firstdelete) - Delete the file betty. The file betty is in /tmp/holberton
 
-This will install all of the required packages we selected within the `requirements.txt` file.
+[9-firstdirdeletion](./9-firstdirdeletion) - Delete the directory holberton that is in the /tmp directory.
 
-##### Key Dependencies
+[10-back](./10-back) - Write a script that changes the working directory to the previous one.
 
-- [Flask](http://flask.pocoo.org/)  is a lightweight backend microservices framework. Flask is required to handle requests and responses.
+[11-lists](./11-lists) - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
-- [SQLAlchemy](https://www.sqlalchemy.org/) is the Python SQL toolkit and ORM we'll use handle the lightweight sqlite database. You'll primarily work in app.py and can reference models.py. 
+[12-file_type](./12-file_type) - Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 
-- [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#) is the extension we'll use to handle cross origin requests from our frontend server. 
+[13-symbolic_link](./13-symbolic_link) - Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
 
+[14-copy_html](./14-copy_html) - Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension .html
+
+[15-lets_move](./15-lets_move) - Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u. You can assume that the directory /tmp/u will exist when we will run your script
+
+[16-clean_emacs](./16-clean_emacs) - Create a script that deletes all files in the current working directory that end with the character ~.
+
+[17-tree](./17-tree) - Create a script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. You are only allowed to use two spaces in your script, not more.
+
+[18-commas](./18-commas) - Write a command that lists all the files and directories of the current directory, separated by commas (,).
+
+Directory names should end with a slash (/)
+Files and directories starting with a dot (.) should be listed
+The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+Only digits and letters are used to sort; Digits should come first
+You can assume that all the files we will test with will have at least one letter or one digit
+The listing should end with a new line.
+
+[holberton.mgc](./holberton.mgc) - Create a magic file holberton.mgc that can be used with the command file to detect Holberton data files. Holberton data files always contain the string HOLBERTON at offset 0.
