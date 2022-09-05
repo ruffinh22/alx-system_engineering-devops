@@ -14,7 +14,7 @@
 A shell script is program composed of a series of operating system commands that are executed by the command-line interpreter or the shell in sequence. It is called a shell script because the individual commands are combined to form a "script" that the shell follows and executes, very much like how an actor/actress follows the script written for him/her. 
 A shell script is useful for repetitive tasks that would become time consuming if manually typed in then executed one at a time. For example, programmers and developers use shell scripts to automate their code compile process so that instead of typing in a series of long commands, they just execute the shell script. This is especially helpful for them because they often compile and test code, sometimes multiple times, in one single minute.
 
-![shell script](/home/lidruf/Images/Capture d’écran du 2022-09-05 08-57-12.png)
+![shell script](https://github.com/ruffinh22/alx-system_engineering-devops/commit/55b38934c49b8678cc3429a8312e3ae68a59ab0b)
 
 
 ### Scripts start with a bash bang.
