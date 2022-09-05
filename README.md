@@ -1,37 +1,47 @@
-@@ -1 +1,52 @@
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 
-# 0x00 ALX System Engineering and DevOps 💥
+# ALX-system_engineering-devops
 
->Learning bash, scripting, networking and web infra right now, been wanting to get on this. It's going to be FUN !!.
+![alx](https://user-images.githubusercontent.com/110563322/187611536-93373cfb-4350-4351-acf5-d1b081a13987.jpeg)
 
-## About
 
-- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3\_gr00t](https://th3-gr00t.tk/).
+## This repo contain tasks on Shell basics and scripting.
 
----
+# What is shell Scripting?
+#### A shell script is small computer program that is designed to be run or executed by the Unix shell, which is a command-line interpreter. A shell script is basically a set of commands that the shell in a Unix-based operating system follows. Like actual programs, the commands in the shell script can contain parameters and subcommands that tell the shell what to do. The shell script is usually contained in a simple text file. 
 
-- [0x00](./0x00-shell_basics) : Writing basic bash scripts that perform basic stuff.
-- [0x01](./0x01-shell_permissions) : Linux permissions.
-- [0x02](./0x02-shell_redirections) : Shell, I/O Redirections and filters.
-- [0x03](./0x03-shell_variables_expansions) : Shell, init files, variables and expansions.
-- [0x04](./0x04-loops_conditions_and_parsing) : Loops, conditions and parsing.
-- [0x05](./0x05-processes_and_signals) : Processes and signals.
-- [0x06](./0x06-regular_expressions) : Regular expression.
-- [0x07](./0x07-networking_basics) : Networking basics #0.
-- [0x08](./0x08-networking_basics_2) : Networking basics #1.
-- [0x09](./0x09-web_infrastructure_design) : Web infrastructure design.
-- [0x0A](./0x0A-configuration_management) : Configuration management.
-- [0x0B](./0x0B-ssh) : SSH.
-- [0x0C](./0x0C-web_server) : Web server.
-- [0x0D](./0x0D-web_stack_debugging_0) : Web stack debugging #0.
-- [0x0E](./0x0E-web_stack_debugging_1) : Web stack debugging #1.
-- [0x0F](./0x0F-load_balancer) : Load balancer.
-- [0x10](./0x10-https_ssl) : HTTPS SSL.
-- [0x11](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) : What happens when you type holbertonschool.com in your browser and press Enter.
-- [0x12](./0x12-web_stack_debugging_2) : Web stack debugging #2.
-- [0x13](./0x13-firewall) : Firewall.
-- [0x14](./0x14-mysql) : MySQL.
-- [0x15](./0x15-api) : API.
+![shell](https://user-images.githubusercontent.com/110563322/187611911-1204f46c-de58-4288-b47c-5180b87153ef.jpeg)
 
-#! /bin/bash
+A shell script is program composed of a series of operating system commands that are executed by the command-line interpreter or the shell in sequence. It is called a shell script because the individual commands are combined to form a "script" that the shell follows and executes, very much like how an actor/actress follows the script written for him/her. 
+A shell script is useful for repetitive tasks that would become time consuming if manually typed in then executed one at a time. For example, programmers and developers use shell scripts to automate their code compile process so that instead of typing in a series of long commands, they just execute the shell script. This is especially helpful for them because they often compile and test code, sometimes multiple times, in one single minute.
+
+![shell script](/home/lidruf/Images/Capture d’écran du 2022-09-05 08-57-12.png)
+
+
+### Scripts start with a bash bang.
+Scripts are also identified with a shebang. Shebang is a combination of bash # and bang !  followed the the bash shell path. This is the first line of the script. Shebang tells the shell to execute it via bash shell. Shebang is simply an absolute path to the bash interpreter.
+Below is an example of the shebang statement.
+
+
+#### #! /bin/bash
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/techbydami" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="techbydami" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/agboola-olawale-damilola-7b2132246" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="agboola-olawale-damilola-7b2132246" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/19747131" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="19747131" height="30" width="40" /></a>
+<a href="https://instagram.com/techbydami" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="techbydami" height="30" width="40" /></a>
+<a href="https://hashnode.com/@techbydami" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="@techbydami" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/techbydami" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="techbydami" height="30" width="40" /></a>
+<a href="https://discord.gg/5007" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="5007" height="30" width="40" /></a>
+</p>
