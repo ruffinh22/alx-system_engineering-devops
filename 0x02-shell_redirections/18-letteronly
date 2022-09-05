@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i -v bin /etc/passwd
+grep '^[[:upper:]]\|^[[:lower:]]' /etc/ssh/sshd_config
