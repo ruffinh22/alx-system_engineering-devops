@@ -1,21 +1,4 @@
-# 0x01 Shell Permissions
-
-## Resources
-
-- LinuxCommand.org [Permissions](http://linuxcommand.org/lc3_lts0090.php).
-
-## Tasks
-
-0. [My name is Betty](./0-iam_betty) : A script that switches the current user to the user betty.
-1. [Who am I](./1-who_am_i) : A script that prints the effective username of the current user.
-2. [Groups](./2-groups) : A script that prints all the groups the current user is part of.
-3. [New owner](./3-new_owner) : A script that changes the owner of the file `hello` to the user `betty`.
-4. [Empty!](./4-empty) : A script that creates an empty file called `hello`.
-5. [Execute](./5-execute) : A script that adds execute permission to the owner of the file `hello`.
-6. [Multiple permissions](./6-multiple_permissions) : A script that adds execute permission to the owner and the group owner, and read permission to the other users, to the file `hello`.
-7. [Everybody!](./7-everybody) : A script that adds execution permissions to the owner, the group owner and the other users, to the file `hello`.
-8. [James Bond](./8-James_Bond) : A script that gives the gives the rest of the users permission and removes all permission for the owner and the group owner.
-9. [John Doe](./9-John_Doe) : A script that sets the mode of the file `hello`; where owner has all the permissions set, group owner has execute permissions set# 0x03 Shell, init files, variables and expansions
+# 0x03 Shell, init files, variables and expansions
 
 ## Resources
 
@@ -67,10 +50,9 @@
 14. [Decimal to Hexadecimal](./100-decimal_to_hexadecimal) : A script that converts a number from base 10 to base 16.
     - The number is base 10 is stored in the enviroment variable `DECIMAL`.
     - The script should display the number in base 16, followed by a new line.
-16. [Everyone is a proponent of strong encryption](./101-rot13) : A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+15. [Everyone is a proponent of strong encryption](./101-rot13) : A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 16. [The eggs of the brood need to be an odd number](./102-odd) : A script that prints every other line from the input, starting with the first line.
 17. [I'm an instant star. Just add water and stir.](./103-water_and_stir) : A script that adds the two numbers stored in the enviroment variables `WATER` and `STIR` and prints the results.
     - `WATER` is in base `water`.
     - `STIR` is in base `stir`.
     - The result should be in base `behlnort`.
-
