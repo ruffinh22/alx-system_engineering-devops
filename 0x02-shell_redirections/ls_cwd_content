@@ -1,0 +1,16 @@
+total 56
+drwxrwxr-x 2 lidruf lidruf 4096 sept.  5 16:22 .
+drwxrwxr-x 6 lidruf lidruf 4096 sept.  5 11:12 ..
+-rwxrw-r-- 1 lidruf lidruf   30 sept.  5 10:02 0-hello_world
+-rwxrw-r-- 1 lidruf lidruf   28 sept.  5 10:28 1-confused_smiley
+-rwxrw-r-- 1 lidruf lidruf   28 sept.  5 10:32 2-hellofile
+-rwxrw-r-- 1 lidruf lidruf   39 sept.  5 10:42 3-twofiles
+-rwxrw-r-- 1 lidruf lidruf   29 sept.  5 11:24 4-lastlines
+-rwxrw-r-- 1 lidruf lidruf   29 sept.  5 11:23 5-firstlines
+-rwxrw-r-- 1 lidruf lidruf   36 sept.  5 11:33 6-third_line
+-rwxrw-r-- 1 lidruf lidruf   79 sept.  5 11:43 7-file
+-rw-rw-r-- 1 lidruf lidruf   12 sept.  5 11:37 7-file~
+-rwxrw-r-- 1 lidruf lidruf   37 sept.  5 16:20 8-cwd_state
+-rw-rw-r-- 1 lidruf lidruf  114 sept.  5 15:32  \*\'Best
+-rw-rw-r-- 1 lidruf lidruf  800 sept.  5 11:35 iacta
+-rw-rw-r-- 1 lidruf lidruf    0 sept.  5 16:22 ls_cwd_content

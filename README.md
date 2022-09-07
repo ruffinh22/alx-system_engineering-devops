@@ -1,59 +1,67 @@
-@@ -1 +1,52 @@
-directory to put my answers
-## 0x00. Shell, basics Day 1 at Holberton school
 
+<<<<<<< HEAD
 
 [0-current_working_directory](./0-current_working_directory) - Write a script that prints the absolute path name of the current working directory.
 
 
 [1-listit](./1-listit) - Display the contents list of your current directory.
+=======
+# ALX-system_engineering-devops
 
-[2-bring_me_home](./2-bring_me_home) - Write a script that changes the working directory to the user’s home directory.
-You are not allowed to use any shell variables
+![alx](https://user-images.githubusercontent.com/110563322/187611536-93373cfb-4350-4351-acf5-d1b081a13987.jpeg)
+>>>>>>> 74adf8eff14252cf0cfbb13760df7c67bf397871
 
-[3-listfiles](./3-listfiles) - Display current directory contents in a long format
 
-[4-listmorefiles](./4-listmorefiles) - Display current directory contents, including hidden files (starting with .). Use the long format.
+## This repo contain tasks on Shell basics and scripting.
 
-[5-listfilesdigitonly](./5-listfilesdigitonly) - Display current directory contents.
-Long format
-with user and group IDs displayed numerically
-And hidden files (starting with .)
+# What is shell Scripting?
+#### A shell script is small computer program that is designed to be run or executed by the Unix shell, which is a command-line interpreter. A shell script is basically a set of commands that the shell in a Unix-based operating system follows. Like actual programs, the commands in the shell script can contain parameters and subcommands that tell the shell what to do. The shell script is usually contained in a simple text file. 
 
-[6-firstdirectory](./6-firstdirectory) - Create a script that creates a directory named holberton in the /tmp/ directory.
+![shell](https://user-images.githubusercontent.com/110563322/187611911-1204f46c-de58-4288-b47c-5180b87153ef.jpeg)
 
-[7-movethatfile](./7-movethatfile) - Move the file betty from /tmp/ to /tmp/holberton.
+A shell script is program composed of a series of operating system commands that are executed by the command-line interpreter or the shell in sequence. It is called a shell script because the individual commands are combined to form a "script" that the shell follows and executes, very much like how an actor/actress follows the script written for him/her. 
+A shell script is useful for repetitive tasks that would become time consuming if manually typed in then executed one at a time. For example, programmers and developers use shell scripts to automate their code compile process so that instead of typing in a series of long commands, they just execute the shell script. This is especially helpful for them because they often compile and test code, sometimes multiple times, in one single minute.
 
-[8-firstdelete](./8-firstdelete) - Delete the file betty. The file betty is in /tmp/holberton
+![shell script](https://user-images.githubusercontent.com/110920067/188408767-ec89e154-e822-4c5a-b411-2cfc1363e7f5.png)
 
-[9-firstdirdeletion](./9-firstdirdeletion) - Delete the directory holberton that is in the /tmp directory.
 
-[10-back](./10-back) - Write a script that changes the working directory to the previous one.
+### Scripts start with a bash bang.
+Scripts are also identified with a shebang. Shebang is a combination of bash # and bang !  followed the the bash shell path. This is the first line of the script. Shebang tells the shell to execute it via bash shell. Shebang is simply an absolute path to the bash interpreter.
+Below is an example of the shebang statement.
 
-[11-lists](./11-lists) - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
-[12-file_type](./12-file_type) - Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+#### #! /bin/bash
 
-[13-symbolic_link](./13-symbolic_link) - Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+## About
 
-[14-copy_html](./14-copy_html) - Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension .html
+- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3\_gr00t](https://th3-gr00t.tk/).
 
-[15-lets_move](./15-lets_move) - Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u. You can assume that the directory /tmp/u will exist when we will run your script
+---
 
-[16-clean_emacs](./16-clean_emacs) - Create a script that deletes all files in the current working directory that end with the character ~.
+- [0x00](./0x00-shell_basics) : Writing basic bash scripts that perform basic stuff.
+- [0x01](./0x01-shell_permissions) : Linux permissions.
+- [0x02](./0x02-shell_redirections) : Shell, I/O Redirections and filters.
+- [0x03](./0x03-shell_variables_expansions) : Shell, init files, variables and expansions.
 
-[17-tree](./17-tree) - Create a script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. You are only allowed to use two spaces in your script, not more.
 
-[18-commas](./18-commas) - Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
-Directory names should end with a slash (/)
-Files and directories starting with a dot (.) should be listed
-The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
-Only digits and letters are used to sort; Digits should come first
-You can assume that all the files we will test with will have at least one letter or one digit
-The listing should end with a new line.
 
-[holberton.mgc](./holberton.mgc) - Create a magic file holberton.mgc that can be used with the command file to detect Holberton data files. Holberton data files always contain the string HOLBERTON at offset 0. 
- 
 
-#! /bin/bash
+
+
+
+
+
+
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/ruffinh22" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ruffinh22" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/ruffin-hounsounnon-359559244" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="359559244" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/19926628/ruffinh22" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="19926628" height="30" width="40" /></a>
+<a href="https://instagram.com/hounsounnonruffin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hounsounnonruffin" height="30" width="40" /></a>
+<a href="https://discord.gg/9941" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="9941" height="30" width="40" /></a>
+<a href="https://wa.me/22994509844" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="9941" height="30" width="40" /></a>
+</p>
+
+
