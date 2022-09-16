@@ -1,9 +1,3 @@
-
-[0-current_working_directory](./0-current_working_directory) - Write a script that prints the absolute path name of the current working directory.
-
-
-[1-listit](./1-listit) - Display the contents list of your current directory.
-=======
 # ALX-system_engineering-devops
 
 ![alx](https://user-images.githubusercontent.com/110563322/187611536-93373cfb-4350-4351-acf5-d1b081a13987.jpeg)
