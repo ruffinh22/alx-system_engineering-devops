@@ -9,11 +9,17 @@
 #
 
 #forward from port 8080 to port 80
+# nat Table rules
 *nat
-:PREROUTING ACCEPT [0:0]
--A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
-COMMIT
 
+:PREROUTING ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+
+# Redirect port 8080 to port 80
+-A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+
+COMMIT
 # Don't delete these required lines, otherwise there will be errors
 *filter
 :ufw-before-input - [0:0]
